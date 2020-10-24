@@ -1,0 +1,92 @@
+header{
+  i {
+    z-index: 99;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+}
+
+.menu {
+  display: flex;
+  position: fixed;
+  background-color: $secondary-color;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 98;
+  visibility: hidden;
+  font-size: 20px;
+  color: $text-color-dark;
+  list-style: none;
+
+  &.show{
+    visibility: visible;
+  }
+
+  .name-heading{
+    font-weight: 400;
+    grid-area: name;
+  }
+
+  .line{
+    border-bottom: 2px solid $primary-color;
+    height: 5px;
+    width: 50%;
+    margin-bottom: 1rem;
+    grid-area: line;
+  }
+
+  .item-po{
+    font-weight: 400;
+    grid-area: po;
+  }
+  .item-ml{
+    font-size: 18px;
+    grid-area: ml;
+  }
+  .item-da{
+    font-size: 18px;
+    grid-area: da;
+  }
+  .item-wp{
+    font-size: 18px;
+    grid-area: wp;
+    margin-bottom: 1rem;
+  }
+  .item-ab{
+    font-weight: 400;
+    grid-area: ab;
+    align-self: center;
+    font-size: 18px;
+  }
+  .item-co{
+    font-weight: 400;
+    grid-area: co;
+    align-self: center;
+    font-size: 18px;
+  }
+  .about-icon{
+    grid-area: abicon;
+  }
+  .contact-icon{
+    grid-area: coicon;
+  }
+
+  .menu-nav{
+      display: grid;
+      grid-template-areas: 'name name' 'line line'
+      'po po' 'ml ml' 'da da' 'wp wp' 'abicon ab' 'coicon co';
+      grid-gap: 2px;
+      list-style: none;
+  }
+
+  .menu-link{
+      color: $text-color-dark;
+
+      &:hover{
+        border-bottom: 2px solid $text-color-dark;
+      }
+
+  }
+}

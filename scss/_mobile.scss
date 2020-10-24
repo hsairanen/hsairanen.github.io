@@ -1,0 +1,216 @@
+/* Styles for different screen
+sizes */
+
+// Widescreens (min-width: 1171px)
+@include mediaXl {
+
+}
+
+// Desktops & Laptops (min-width: 769px) and (max-width: 1170px)
+@include mediaLg {
+
+section {
+  &#data-analytics, &#web-programming {
+    h1 {
+    margin-top: 7vh;
+    }
+  }
+}
+
+  .project-container-ml {
+    grid-template-columns: repeat(4,149px);
+    grid-template-rows: 60px 200px 200px 200px;
+
+    h1 {
+      grid-column: 1 / 5;
+      grid-row: 1;
+    }
+  }
+
+    .proj-item {
+
+      &-ml4 {
+        grid-column: 1 / 3;
+        grid-row: 4;
+      }
+
+      &-ml7 {
+        grid-column: 3 / 5;
+        grid-row: 4;
+      }
+
+      &-ml8 {
+        grid-column: 4;
+      }
+    }
+
+.about-info {
+
+    .about-container {
+      grid-template-columns: 250px 450px;
+      grid-row: 60px 100px;
+  }
+}
+
+}
+
+// Tablets & Small Laptops (max-width: 768px)
+@include mediaMd {
+
+  section {
+    h1 {
+      font-size: 40px;
+    }
+
+    &#data-analytics, &#web-programming {
+      h1 {
+      margin-top: 7vh;
+      }
+    }
+  }
+
+  .project-container-ml {
+    grid-template-columns: repeat(3,149px);
+    grid-template-rows: 40px 200px 200px 200px 200px;
+
+    h1 {
+      grid-column: 1 / 4;
+      grid-row: 1;
+    }
+
+  }
+
+    .proj-item {
+
+      &-ml3 {
+        grid-column: 3;
+        grid-row: 4;
+      }
+
+      &-ml7 {
+        grid-column: 1 / 3;
+        grid-row: 4;
+      }
+
+      &-ml4 {
+        grid-column: 1 / 3;
+        grid-row: 5;
+      }
+
+      &-ml8 {
+        grid-column: 3;
+        grid-row: 5;
+      }
+
+    }
+
+  .topics{
+    &-item {
+      padding: 0.3rem;
+    }
+  }
+
+  .about-info {
+
+      .about-container {
+        grid-template-columns: 80vw;
+        grid-row: 60px 200px 200px;
+
+        .profile-head {
+          grid-column: 1;
+          grid-row: 1;
+        }
+
+        .profile-desc {
+          grid-column: 1;
+          grid-row: 3;
+          margin-top: 1.5rem;
+
+          .prof-heading {
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 0.7rem;
+          }
+        }
+
+      }
+  }
+
+}
+
+// Smartphones (max-width: 500px)
+@include mediaSm {
+
+  section {
+    h1 {
+      font-size: 30px;
+    }
+
+    &#data-analytics, &#web-programming {
+      h1{
+      margin-top: 3vh;
+      }
+    }
+
+  }
+
+  .project-container-ml {
+    grid-template-columns: repeat(2,149px);
+    grid-template-rows: 30px repeat(6,200px);
+
+    h1 {
+      grid-column: 1 / 3;
+      grid-row: 1;
+    }
+
+  }
+
+    .proj-item {
+
+      &-ml2 {
+        grid-column: 2;
+        grid-row: 3;
+      }
+
+      &-ml6 {
+        grid-column: 1 / 3;
+        grid-row: 4;
+      }
+
+      &-ml7 {
+        grid-column: 1 / 3;
+        grid-row: 5;
+      }
+
+      &-ml3 {
+        grid-column: 1;
+        grid-row: 6;
+      }
+
+      &-ml8 {
+        grid-column: 2;
+        grid-row: 6;
+      }
+
+      &-ml4 {
+        grid-column: 1 / 3;
+        grid-row: 7;
+      }
+
+  }
+
+  .topics {
+
+    &-nav {
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 18px;
+    }
+
+    &-item {
+      margin: 0.5rem auto;
+      padding: 0;
+    }
+  }
+
+}
