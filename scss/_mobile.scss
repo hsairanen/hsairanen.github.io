@@ -106,11 +106,15 @@ section {
 
   .topics{
     &-nav {
-      font-size: 4vh;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 3.5vh;
     }
 
+
     &-item {
-      padding: 0.3rem;
+      margin: 0.5rem auto;
+      padding: 0;
     }
   }
 
@@ -201,20 +205,6 @@ section {
         grid-row: 7;
       }
 
-  }
-
-  .topics {
-
-    &-nav {
-    flex-direction: column;
-    margin-top: 2rem;
-    font-size: 4vh;
-    }
-
-    &-item {
-      margin: 0.5rem auto;
-      padding: 0;
-    }
   }
 
 }
