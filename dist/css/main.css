@@ -4,10 +4,12 @@
   padding: 0; }
 
 /* Color theme */
-header i {
-  z-index: 99;
-  padding: 0.5rem;
-  cursor: pointer; }
+header {
+  font-size: 8vh; }
+  header i {
+    z-index: 99;
+    padding: 0.5rem;
+    cursor: pointer; }
 
 .menu {
   display: flex;
@@ -28,7 +30,7 @@ header i {
     font-weight: 400;
     grid-area: name; }
   .menu .line {
-    border-bottom: 2px solid #21252B;
+    border-bottom: 0.5vh solid #21252B;
     height: 5px;
     width: 50%;
     margin-bottom: 1rem;
@@ -68,7 +70,7 @@ header i {
   .menu .menu-link {
     color: #21252B; }
     .menu .menu-link:hover {
-      border-bottom: 2px solid #21252B; }
+      border-bottom: 0.5vh solid #21252B; }
 
 /* Animations balance, ojump, mirror and upsidedown
 are from https://codepen.io/FlorinPop17/pen/WEBNyx */
