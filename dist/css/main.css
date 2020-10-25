@@ -19,7 +19,7 @@ header i {
   justify-content: center;
   z-index: 98;
   visibility: hidden;
-  font-size: 20px;
+  font-size: 8vh;
   color: #21252B;
   list-style: none; }
   .menu.show {
@@ -37,25 +37,25 @@ header i {
     font-weight: 400;
     grid-area: po; }
   .menu .item-ml {
-    font-size: 18px;
+    font-size: 5vh;
     grid-area: ml; }
   .menu .item-da {
-    font-size: 18px;
+    font-size: 5vh;
     grid-area: da; }
   .menu .item-wp {
-    font-size: 18px;
+    font-size: 5vh;
     grid-area: wp;
     margin-bottom: 1rem; }
   .menu .item-ab {
     font-weight: 400;
     grid-area: ab;
     align-self: center;
-    font-size: 18px; }
+    font-size: 5vh; }
   .menu .item-co {
     font-weight: 400;
     grid-area: co;
     align-self: center;
-    font-size: 18px; }
+    font-size: 5vh; }
   .menu .about-icon {
     grid-area: abicon; }
   .menu .contact-icon {
