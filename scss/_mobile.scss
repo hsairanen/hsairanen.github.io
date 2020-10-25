@@ -59,7 +59,7 @@ section {
 
   section {
     h1 {
-      font-size: 40px;
+      font-size: $h1-size-px-md;
     }
 
     &#data-analytics, &#web-programming {
@@ -135,7 +135,6 @@ section {
 
           .prof-heading {
             font-weight: 700;
-            font-size: 20px;
             margin-bottom: 0.7rem;
           }
         }
@@ -150,7 +149,7 @@ section {
 
   section {
     h1 {
-      font-size: 30px;
+      font-size: $h1-size-px-sm;
     }
 
     &#data-analytics, &#web-programming {

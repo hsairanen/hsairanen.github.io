@@ -4,6 +4,7 @@
   padding: 0; }
 
 /* Color theme */
+/* Font sizes */
 header {
   font-size: 8vh; }
   header i {
@@ -257,7 +258,7 @@ section {
   .topics a {
     color: #F7F6F6; }
     .topics a:hover {
-      border-bottom: 3px solid #F7F6F6; }
+      border-bottom: 0.5vh solid #F7F6F6; }
 
 .project-container-ml {
   display: grid;
@@ -284,7 +285,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr); }
   .proj-item:hover, .proj-item-ml1:hover, .proj-item-ml2:hover, .proj-item-ml3:hover, .proj-item-ml4:hover, .proj-item-ml5:hover, .proj-item-ml6:hover, .proj-item-ml7:hover, .proj-item-ml8:hover, .proj-item-da1:hover, .proj-item-da2:hover, .proj-item-da3:hover, .proj-item-wp1:hover, .proj-item-wp2:hover, .proj-item-wp3:hover {
-    border: 4px solid #F7F6F6; }
+    border: 0.5vh solid #F7F6F6; }
   .proj-item-ml1 {
     background: url("/dist/img/mountains.jpg");
     background-size: 100% 100%;
@@ -373,7 +374,7 @@ section {
     margin-left: 4px;
     margin-top: 2px; }
     .proj-icon div:hover {
-      border-bottom: 2px solid #21252B; }
+      border-bottom: 0.5vh solid #21252B; }
 
 .about-info {
   padding: 1rem; }
@@ -383,7 +384,8 @@ section {
     grid-row: 60px 100px; }
   .about-info .profile-head {
     grid-column: 1 / 3;
-    grid-row: 1; }
+    grid-row: 1;
+    font-size: 6vh; }
   .about-info .profile-pic {
     background: url("/dist/img/IMG_2780_square.png");
     background-size: 100% 100%;
@@ -403,18 +405,26 @@ section {
     margin-top: 2rem; }
     .about-info .profile-desc .prof-heading {
       font-weight: 700;
-      font-size: 20px; }
+      font-size: 5vh; }
+    .about-info .profile-desc .prof-text {
+      font-size: 3vh; }
 
 .contact-info {
   padding: 1rem; }
+  .contact-info .contact-heading {
+    font-size: 6vh; }
   .contact-info .contact-container {
     display: grid;
     grid-template-columns: 50px 300px;
     grid-template-rows: 40px 40px 40px;
     align-items: center;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    grid-gap: 1rem;
+    font-size: 5vh; }
     .contact-info .contact-container a {
       color: #F7F6F6; }
+    .contact-info .contact-container .contact-icon {
+      font-size: 4vh; }
 
 /* Styles for different screen
 sizes */
@@ -480,7 +490,6 @@ sizes */
       margin-top: 1.5rem; }
       .about-info .about-container .profile-desc .prof-heading {
         font-weight: 700;
-        font-size: 20px;
         margin-bottom: 0.7rem; } }
 
 @media screen and (max-width: 500px) {

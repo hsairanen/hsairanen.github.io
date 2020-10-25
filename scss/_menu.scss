@@ -17,7 +17,7 @@ header{
   justify-content: center;
   z-index: 98;
   visibility: hidden;
-  font-size: 6vh;
+  font-size: $h1-size;
   color: $text-color-dark;
   list-style: none;
 
@@ -31,7 +31,7 @@ header{
   }
 
   .line{
-    border-bottom: 0.5vh solid $primary-color;
+    border-bottom: $line-size solid $primary-color;
     height: 5px;
     width: 50%;
     margin-bottom: 1rem;
@@ -43,15 +43,15 @@ header{
     grid-area: po;
   }
   .item-ml{
-    font-size: 4vh;
+    font-size: $menu-links-size;
     grid-area: ml;
   }
   .item-da{
-    font-size: 4vh;
+    font-size: $menu-links-size;
     grid-area: da;
   }
   .item-wp{
-    font-size: 4vh;
+    font-size: $menu-links-size;
     grid-area: wp;
     margin-bottom: 1rem;
   }
@@ -59,13 +59,13 @@ header{
     font-weight: 400;
     grid-area: ab;
     align-self: center;
-    font-size: 4vh;
+    font-size: $menu-links-size;
   }
   .item-co{
     font-weight: 400;
     grid-area: co;
     align-self: center;
-    font-size: 4vh;
+    font-size: $menu-links-size;
   }
   .about-icon{
     grid-area: abicon;
@@ -86,7 +86,7 @@ header{
       color: $text-color-dark;
 
       &:hover{
-        border-bottom: 0.5vh solid $text-color-dark;
+        border-bottom: $line-size solid $text-color-dark;
       }
 
   }
