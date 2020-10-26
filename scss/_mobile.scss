@@ -44,14 +44,6 @@ section {
       }
     }
 
-.about-info {
-
-    .about-container {
-      grid-template-columns: 250px 450px;
-      grid-row: 60px 100px;
-  }
-}
-
 }
 
 // Tablets & Small Laptops (max-width: 768px)
@@ -115,31 +107,6 @@ section {
       margin: 0.5rem auto;
       padding: 0;
     }
-  }
-
-  .about-info {
-
-      .about-container {
-        grid-template-columns: 80vw;
-        grid-row: 60px 200px 200px;
-
-        .profile-head {
-          grid-column: 1;
-          grid-row: 1;
-        }
-
-        .profile-desc {
-          grid-column: 1;
-          grid-row: 3;
-          margin-top: 1.5rem;
-
-          .prof-heading {
-            font-weight: 700;
-            margin-bottom: 0.7rem;
-          }
-        }
-
-      }
   }
 
 }

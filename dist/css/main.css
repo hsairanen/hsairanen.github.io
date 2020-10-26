@@ -380,12 +380,14 @@ section {
   padding: 1rem; }
   .about-info .about-container {
     display: grid;
-    grid-template-columns: 250px 600px;
-    grid-row: 60px 100px; }
+    grid-template-columns: 1fr 4fr;
+    margin-left: 1rem;
+    grid-row: 1fr 2fr;
+    grid-gap: 2rem; }
   .about-info .profile-head {
     grid-column: 1 / 3;
     grid-row: 1;
-    font-size: 6vh; }
+    font-size: 60px; }
   .about-info .profile-pic {
     background: url("/dist/img/IMG_2780_square.png");
     background-size: 100% 100%;
@@ -405,9 +407,9 @@ section {
     margin-top: 2rem; }
     .about-info .profile-desc .prof-heading {
       font-weight: 700;
-      font-size: 5vh; }
+      font-size: 30px; }
     .about-info .profile-desc .prof-text {
-      font-size: 3vh; }
+      font-size: 20px; }
 
 .contact-info {
   padding: 1rem; }
@@ -445,10 +447,7 @@ sizes */
     grid-column: 3 / 5;
     grid-row: 4; }
   .proj-item-ml8 {
-    grid-column: 4; }
-  .about-info .about-container {
-    grid-template-columns: 250px 450px;
-    grid-row: 60px 100px; } }
+    grid-column: 4; } }
 
 @media screen and (max-width: 768px) {
   section h1 {
@@ -478,20 +477,7 @@ sizes */
     margin-top: 2rem; }
   .topics-item {
     margin: 0.5rem auto;
-    padding: 0; }
-  .about-info .about-container {
-    grid-template-columns: 80vw;
-    grid-row: 60px 200px 200px; }
-    .about-info .about-container .profile-head {
-      grid-column: 1;
-      grid-row: 1; }
-    .about-info .about-container .profile-desc {
-      grid-column: 1;
-      grid-row: 3;
-      margin-top: 1.5rem; }
-      .about-info .about-container .profile-desc .prof-heading {
-        font-weight: 700;
-        margin-bottom: 0.7rem; } }
+    padding: 0; } }
 
 @media screen and (max-width: 500px) {
   section h1 {
