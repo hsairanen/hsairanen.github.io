@@ -412,19 +412,20 @@ section {
 .contact-info {
   padding: 1rem; }
   .contact-info .contact-heading {
-    font-size: 6vh; }
+    font-size: 60px; }
   .contact-info .contact-container {
     display: grid;
-    grid-template-columns: 50px 300px;
-    grid-template-rows: 40px 40px 40px;
+    grid-template-columns: 0.4fr 2fr;
+    grid-template-rows: repeat(1fr, 3);
     align-items: center;
-    margin-top: 1rem;
-    grid-gap: 1rem;
-    font-size: 5vh; }
+    justify-content: left;
+    padding: 1rem;
+    margin-top: 2vh;
+    font-size: 50px; }
     .contact-info .contact-container a {
       color: #F7F6F6; }
     .contact-info .contact-container .contact-icon {
-      font-size: 4vh; }
+      font-size: 50px; }
 
 /* Styles for different screen
 sizes */

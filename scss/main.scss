@@ -409,25 +409,27 @@ section {
   padding: 1rem;
 
   .contact-heading {
-    font-size: $h1-size;
+    font-size: $h1-size-px;
   }
 
   .contact-container {
      display: grid;
-     grid-template-columns: 50px 300px;
-     grid-template-rows: 40px 40px 40px;
+     grid-template-columns: 0.4fr 2fr;
+     grid-template-rows: repeat(1fr,3);
      align-items: center;
-     margin-top: 1rem;
-     grid-gap: 1rem;
-     font-size: $h2-size;
+     justify-content: left;
+     padding: 1rem;
+     margin-top: 2vh;
+     font-size: 50px;
 
-      a {
+    a {
         color: $text-color;
-      }
+    }
 
-      .contact-icon {
-        font-size: $icon-size;
-      }
+    .contact-icon {
+      font-size: 50px;
+    }
+
   }
 }
 
