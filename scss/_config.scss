@@ -18,9 +18,23 @@ $h1-size-px-md: 40px;
 $h1-size-px-sm: 30px;
 $line-size: 0.5vh;
 $icon-size: 4vh;
+$h2-size: 4vh;
 $h2-size-px: 30px;
 $text-size: 20px;
 $menu-links-size: 4vh;
+
+// Media Query Mixins for screen orientation
+@mixin mediaPortrait {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin mediaLandscape {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
 
 // Media Query Mixins
 @mixin mediaSm {
