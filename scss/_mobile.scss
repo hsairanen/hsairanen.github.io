@@ -201,6 +201,10 @@ section {
       align-items: center;
       margin-left: 0;
 
+      .profile-heading {
+        font-size: $h1-size-px;
+      }
+
       img {
         display: block;
         margin-left: auto;
@@ -215,8 +219,15 @@ section {
       .profile-desc {
         grid-column: 1;
         grid-row: 3;
-      }
 
+          .prof-heading {
+            font-weight: 700;
+            font-size: 50px;
+          }
+          .prof-text {
+            font-size: 30px;
+          }
+      }
     }
 }
 }

@@ -521,6 +521,8 @@ sizes */
     justify-content: center;
     align-items: center;
     margin-left: 0; }
+    .about-info .about-container .profile-heading {
+      font-size: 60px; }
     .about-info .about-container img {
       display: block;
       margin-left: auto;
@@ -532,4 +534,9 @@ sizes */
       grid-row: 2; }
     .about-info .about-container .profile-desc {
       grid-column: 1;
-      grid-row: 3; } }
+      grid-row: 3; }
+      .about-info .about-container .profile-desc .prof-heading {
+        font-weight: 700;
+        font-size: 50px; }
+      .about-info .about-container .profile-desc .prof-text {
+        font-size: 30px; } }
