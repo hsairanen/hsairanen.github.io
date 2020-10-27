@@ -412,20 +412,21 @@ section {
 
   .contact-container {
      display: grid;
-     grid-template-columns: 0.4fr 2fr;
+     grid-template-columns: 1fr 6fr;
      grid-template-rows: repeat(1fr,3);
      align-items: center;
      justify-content: left;
      padding: 1rem;
      margin-top: 2vh;
-     font-size: 50px;
+     font-size: 30px;
+     grid-gap: 1rem;
 
     a {
         color: $text-color;
     }
 
     .contact-icon {
-      font-size: 50px;
+      font-size: 30px;
     }
 
   }

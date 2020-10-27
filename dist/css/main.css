@@ -415,17 +415,18 @@ section {
     font-size: 60px; }
   .contact-info .contact-container {
     display: grid;
-    grid-template-columns: 0.4fr 2fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: repeat(1fr, 3);
     align-items: center;
     justify-content: left;
     padding: 1rem;
     margin-top: 2vh;
-    font-size: 50px; }
+    font-size: 30px;
+    grid-gap: 1rem; }
     .contact-info .contact-container a {
       color: #F7F6F6; }
     .contact-info .contact-container .contact-icon {
-      font-size: 50px; }
+      font-size: 30px; }
 
 /* Styles for different screen
 sizes */
@@ -539,4 +540,8 @@ sizes */
         font-weight: 700;
         font-size: 50px; }
       .about-info .about-container .profile-desc .prof-text {
-        font-size: 30px; } }
+        font-size: 30px; }
+  .contact-info .contact-container {
+    font-size: 50px; }
+    .contact-info .contact-container .contact-icon {
+      font-size: 50px; } }
