@@ -177,7 +177,7 @@ section {
     font-weight: 700;
     text-align: center; }
   section#home, section#parallax-empty {
-    background: url("/dist/img/computer-gray.jpg");
+    background: url("/dist/img/computer-gray-reduced.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -245,7 +245,6 @@ section {
     animation: oroll 2s ease-out;
     transform-origin: center center; }
 
-/* Styling keywords */
 .topics {
   width: 100%; }
   .topics-nav {
@@ -278,7 +277,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  grid-gap: 0.5rem;
+  grid-gap: 1vh;
   margin-bottom: 1rem; }
 
 .proj-item, .proj-item-ml1, .proj-item-ml2, .proj-item-ml3, .proj-item-ml4, .proj-item-ml5, .proj-item-ml6, .proj-item-ml7, .proj-item-ml8, .proj-item-da1, .proj-item-da2, .proj-item-da3, .proj-item-wp1, .proj-item-wp2, .proj-item-wp3 {
