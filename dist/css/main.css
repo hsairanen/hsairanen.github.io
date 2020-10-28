@@ -7,7 +7,9 @@
 /* Color theme */
 /* Font sizes */
 header {
-  font-size: 60px; }
+  font-size: 60px;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem; }
   header i {
     z-index: 99;
     padding: 0.5rem;
@@ -198,7 +200,7 @@ section {
     display: flex;
     justify-content: center;
     margin-top: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-size: 3vh; }
     section .arrow-icon a {
       color: #F7F6F6; }
@@ -277,7 +279,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  grid-gap: 1vh;
+  grid-gap: 3vh;
   margin-bottom: 1rem; }
 
 .proj-item, .proj-item-ml1, .proj-item-ml2, .proj-item-ml3, .proj-item-ml4, .proj-item-ml5, .proj-item-ml6, .proj-item-ml7, .proj-item-ml8, .proj-item-da1, .proj-item-da2, .proj-item-da3, .proj-item-wp1, .proj-item-wp2, .proj-item-wp3 {
@@ -545,7 +547,7 @@ sizes */
     .contact-info .contact-container .contact-icon {
       font-size: 50px; }
   header {
-    font-size: 80px; }
+    font-size: 8vh; }
   .topics-nav {
     flex-direction: column;
     margin-top: 2rem;
