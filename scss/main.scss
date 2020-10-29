@@ -200,7 +200,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  grid-gap: 3vh;
+  //grid-gap: 3vh;
   margin-bottom: 1rem;
 }
 
@@ -208,6 +208,7 @@ section {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    padding: 0.5rem;
 
     &:hover{
       border: $line-size solid $text-color;
