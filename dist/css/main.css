@@ -279,13 +279,13 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  grid-gap: 3vh;
   margin-bottom: 1rem; }
 
 .proj-item, .proj-item-ml1, .proj-item-ml2, .proj-item-ml3, .proj-item-ml4, .proj-item-ml5, .proj-item-ml6, .proj-item-ml7, .proj-item-ml8, .proj-item-da1, .proj-item-da2, .proj-item-da3, .proj-item-wp1, .proj-item-wp2, .proj-item-wp3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-rows: repeat(3, 1fr);
+  padding: 0.5rem; }
   .proj-item:hover, .proj-item-ml1:hover, .proj-item-ml2:hover, .proj-item-ml3:hover, .proj-item-ml4:hover, .proj-item-ml5:hover, .proj-item-ml6:hover, .proj-item-ml7:hover, .proj-item-ml8:hover, .proj-item-da1:hover, .proj-item-da2:hover, .proj-item-da3:hover, .proj-item-wp1:hover, .proj-item-wp2:hover, .proj-item-wp3:hover {
     border: 0.5vh solid #F7F6F6; }
   .proj-item-ml1 {
@@ -451,7 +451,7 @@ sizes */
 
 @media screen and (max-width: 768px) {
   section h1 {
-    font-size: 40px; }
+    font-size: 6vh; }
   section#data-analytics h1, section#web-programming h1 {
     margin-top: 7vh; }
   .project-container-ml {
@@ -488,7 +488,7 @@ sizes */
 
 @media screen and (max-width: 500px) {
   section h1 {
-    font-size: 30px; }
+    font-size: 6vh; }
   section#data-analytics h1, section#web-programming h1 {
     margin-top: 3vh; }
   .project-container-ml {
