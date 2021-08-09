@@ -517,9 +517,17 @@ sizes */
     grid-row: 7; } }
 
 @media screen and (orientation: portrait) {
-  .proj-item-a {
-    width: 90vw;
-    height: 60vw; }
+  .proj-item-a, .proj-item-b, .proj-item-c {
+    width: 70vw;
+    height: 46.66667vw; }
+    .proj-item-a .proj-desc, .proj-item-b .proj-desc, .proj-item-c .proj-desc {
+      width: 25vw;
+      margin-top: 0px;
+      margin-left: 1vw; }
+      .proj-item-a .proj-desc .heading, .proj-item-b .proj-desc .heading, .proj-item-c .proj-desc .heading {
+        font-size: 35px; }
+      .proj-item-a .proj-desc .paragraph, .proj-item-b .proj-desc .paragraph, .proj-item-c .proj-desc .paragraph {
+        font-size: 30px; }
   .about-info .about-container {
     grid-template-columns: 80vw;
     grid-row: 1fr 3fr 3fr;

@@ -193,12 +193,27 @@ section {
 // Screen orientation
 @include mediaPortrait {
 
-  .proj-item{
-    &-a {
-      width: 90vw;
-      height: (2/3)*90vw;
+  .proj-item {
+    &-a, &-b, &-c {
+      width: 70vw;
+      height: (2/3)*70vw;
+
+      .proj-desc {
+        width: 25vw;
+        margin-top: 0px;
+        margin-left: 1vw;
+
+        .heading {
+          font-size: 35px;
+        }
+
+        .paragraph {
+          font-size: 30px;
+        }
+      }
     }
   }
+
 
   // About page styles
   .about-info {
