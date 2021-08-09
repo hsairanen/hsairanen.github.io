@@ -64,12 +64,12 @@ section {
    height: 60vh;
  }
 
-  &#machine-learning {
+  &#data-analytics {
     background: $primary-color;
     min-height: 100vh;
   }
 
-  &#data-analytics, &#web-programming {
+  &#machine-learning, &#web-programming {
     background: $primary-color;
     min-height: 100vh;
     h1 {
@@ -180,7 +180,7 @@ section {
   }
 }
 
-.project-container-ml {
+.project-container-gd {
   display: grid;
   grid-template-columns: repeat(6,149px);
   grid-template-rows: 60px 200px 200px;
@@ -214,7 +214,7 @@ section {
       border: $line-size solid $text-color;
     }
 
-    &-ml1 {
+    &-gd1 {
       background: url("/dist/img/mountains.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -222,7 +222,7 @@ section {
       grid-row: 2;
     }
 
-    &-ml2 {
+    &-gd2 {
       background: url("/dist/img/green.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -230,7 +230,7 @@ section {
       grid-row: 2;
     }
 
-    &-ml3 {
+    &-gd3 {
       background: url("/dist/img/namibia.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -238,7 +238,7 @@ section {
       grid-row: 2;
     }
 
-    &-ml4 {
+    &-gd4 {
       background: url("/dist/img/frog.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -246,7 +246,7 @@ section {
       grid-row: 2;
     }
 
-    &-ml5 {
+    &-gd5 {
       background: url("/dist/img/mountains2.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -254,7 +254,7 @@ section {
       grid-row: 3;
     }
 
-    &-ml6 {
+    &-gd6 {
       background: url("/dist/img/peony.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -262,7 +262,7 @@ section {
       grid-row: 3;
     }
 
-    &-ml7 {
+    &-gd7 {
       background: url("/dist/img/pelican.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -270,7 +270,7 @@ section {
       grid-row: 3;
     }
 
-    &-ml8 {
+    &-gd8 {
       background: url("/dist/img/hot-air-balloon.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
@@ -278,19 +278,19 @@ section {
       grid-row: 3;
     }
 
-    &-da1 {
+    &-a {
       background: url("/dist/img/tablets.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
     }
 
-    &-da2 {
+    &-b {
       background: url("/dist/img/lights.jpg");
       @extend .proj-item;
       background-size: 100% 100%;
     }
 
-    &-da3 {
+    &-c {
       background: url("/dist/img/light-bulbs.jpg");
       @extend .proj-item;
       background-size: 100% 100%;

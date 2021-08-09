@@ -188,13 +188,13 @@ section {
     height: 100vh; }
   section#parallax-empty {
     height: 60vh; }
-  section#machine-learning {
+  section#data-analytics {
     background: #21252B;
     min-height: 100vh; }
-  section#data-analytics, section#web-programming {
+  section#machine-learning, section#web-programming {
     background: #21252B;
     min-height: 100vh; }
-    section#data-analytics h1, section#web-programming h1 {
+    section#machine-learning h1, section#web-programming h1 {
       margin-top: 15vh; }
   section .arrow-icon {
     display: flex;
@@ -262,7 +262,7 @@ section {
     .topics a:hover {
       border-bottom: 0.5vh solid #F7F6F6; }
 
-.project-container-ml {
+.project-container-gd {
   display: grid;
   grid-template-columns: repeat(6, 149px);
   grid-template-rows: 60px 200px 200px;
@@ -270,7 +270,7 @@ section {
   grid-gap: 0.5rem;
   margin-top: 3vh;
   margin-bottom: 1rem; }
-  .project-container-ml h1 {
+  .project-container-gd h1 {
     text-align: left;
     grid-column: 1 / 7;
     grid-row: 1; }
@@ -281,60 +281,60 @@ section {
   justify-content: center;
   margin-bottom: 1rem; }
 
-.proj-item, .proj-item-ml1, .proj-item-ml2, .proj-item-ml3, .proj-item-ml4, .proj-item-ml5, .proj-item-ml6, .proj-item-ml7, .proj-item-ml8, .proj-item-da1, .proj-item-da2, .proj-item-da3, .proj-item-wp1, .proj-item-wp2, .proj-item-wp3 {
+.proj-item, .proj-item-gd1, .proj-item-gd2, .proj-item-gd3, .proj-item-gd4, .proj-item-gd5, .proj-item-gd6, .proj-item-gd7, .proj-item-gd8, .proj-item-a, .proj-item-b, .proj-item-c, .proj-item-wp1, .proj-item-wp2, .proj-item-wp3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   padding: 0.5rem; }
-  .proj-item:hover, .proj-item-ml1:hover, .proj-item-ml2:hover, .proj-item-ml3:hover, .proj-item-ml4:hover, .proj-item-ml5:hover, .proj-item-ml6:hover, .proj-item-ml7:hover, .proj-item-ml8:hover, .proj-item-da1:hover, .proj-item-da2:hover, .proj-item-da3:hover, .proj-item-wp1:hover, .proj-item-wp2:hover, .proj-item-wp3:hover {
+  .proj-item:hover, .proj-item-gd1:hover, .proj-item-gd2:hover, .proj-item-gd3:hover, .proj-item-gd4:hover, .proj-item-gd5:hover, .proj-item-gd6:hover, .proj-item-gd7:hover, .proj-item-gd8:hover, .proj-item-a:hover, .proj-item-b:hover, .proj-item-c:hover, .proj-item-wp1:hover, .proj-item-wp2:hover, .proj-item-wp3:hover {
     border: 0.5vh solid #F7F6F6; }
-  .proj-item-ml1 {
+  .proj-item-gd1 {
     background: url("/dist/img/mountains.jpg");
     background-size: 100% 100%;
     grid-column: 1 / 3;
     grid-row: 2; }
-  .proj-item-ml2 {
+  .proj-item-gd2 {
     background: url("/dist/img/green.jpg");
     background-size: 100% 100%;
     grid-column: 3;
     grid-row: 2; }
-  .proj-item-ml3 {
+  .proj-item-gd3 {
     background: url("/dist/img/namibia.jpg");
     background-size: 100% 100%;
     grid-column: 4;
     grid-row: 2; }
-  .proj-item-ml4 {
+  .proj-item-gd4 {
     background: url("/dist/img/frog.jpg");
     background-size: 100% 100%;
     grid-column: 5 / 7;
     grid-row: 2; }
-  .proj-item-ml5 {
+  .proj-item-gd5 {
     background: url("/dist/img/mountains2.jpg");
     background-size: 100% 100%;
     grid-column: 1;
     grid-row: 3; }
-  .proj-item-ml6 {
+  .proj-item-gd6 {
     background: url("/dist/img/peony.jpg");
     background-size: 100% 100%;
     grid-column: 2 / 4;
     grid-row: 3; }
-  .proj-item-ml7 {
+  .proj-item-gd7 {
     background: url("/dist/img/pelican.jpg");
     background-size: 100% 100%;
     grid-column: 4 / 6;
     grid-row: 3; }
-  .proj-item-ml8 {
+  .proj-item-gd8 {
     background: url("/dist/img/hot-air-balloon.jpg");
     background-size: 100% 100%;
     grid-column: 6;
     grid-row: 3; }
-  .proj-item-da1 {
+  .proj-item-a {
     background: url("/dist/img/tablets.jpg");
     background-size: 100% 100%; }
-  .proj-item-da2 {
+  .proj-item-b {
     background: url("/dist/img/lights.jpg");
     background-size: 100% 100%; }
-  .proj-item-da3 {
+  .proj-item-c {
     background: url("/dist/img/light-bulbs.jpg");
     background-size: 100% 100%; }
   .proj-item-wp1 {
@@ -432,44 +432,44 @@ section {
 /* Styles for different screen
 sizes */
 @media screen and (min-width: 769px) and (max-width: 1170px) {
-  section#data-analytics h1, section#web-programming h1 {
+  section#machine-learning h1, section#web-programming h1 {
     margin-top: 7vh; }
-  .project-container-ml {
+  .project-container-gd {
     grid-template-columns: repeat(4, 149px);
     grid-template-rows: 60px 200px 200px 200px; }
-    .project-container-ml h1 {
+    .project-container-gd h1 {
       grid-column: 1 / 5;
       grid-row: 1; }
-  .proj-item-ml4 {
+  .proj-item-gd4 {
     grid-column: 1 / 3;
     grid-row: 4; }
-  .proj-item-ml7 {
+  .proj-item-gd7 {
     grid-column: 3 / 5;
     grid-row: 4; }
-  .proj-item-ml8 {
+  .proj-item-gd8 {
     grid-column: 4; } }
 
 @media screen and (max-width: 768px) {
   section h1 {
     font-size: 6vh; }
-  section#data-analytics h1, section#web-programming h1 {
+  section#machine-learning h1, section#web-programming h1 {
     margin-top: 7vh; }
-  .project-container-ml {
+  .project-container-gd {
     grid-template-columns: repeat(3, 149px);
     grid-template-rows: 40px 200px 200px 200px 200px; }
-    .project-container-ml h1 {
+    .project-container-gd h1 {
       grid-column: 1 / 4;
       grid-row: 1; }
-  .proj-item-ml3 {
+  .proj-item-gd3 {
     grid-column: 3;
     grid-row: 4; }
-  .proj-item-ml7 {
+  .proj-item-gd7 {
     grid-column: 1 / 3;
     grid-row: 4; }
-  .proj-item-ml4 {
+  .proj-item-gd4 {
     grid-column: 1 / 3;
     grid-row: 5; }
-  .proj-item-ml8 {
+  .proj-item-gd8 {
     grid-column: 3;
     grid-row: 5; }
   .topics-nav {
@@ -489,30 +489,30 @@ sizes */
 @media screen and (max-width: 500px) {
   section h1 {
     font-size: 6vh; }
-  section#data-analytics h1, section#web-programming h1 {
+  section#machine-learning h1, section#web-programming h1 {
     margin-top: 3vh; }
-  .project-container-ml {
+  .project-container-gd {
     grid-template-columns: repeat(2, 149px);
     grid-template-rows: 30px repeat(6, 200px); }
-    .project-container-ml h1 {
+    .project-container-gd h1 {
       grid-column: 1 / 3;
       grid-row: 1; }
-  .proj-item-ml2 {
+  .proj-item-gd2 {
     grid-column: 2;
     grid-row: 3; }
-  .proj-item-ml6 {
+  .proj-item-gd6 {
     grid-column: 1 / 3;
     grid-row: 4; }
-  .proj-item-ml7 {
+  .proj-item-gd7 {
     grid-column: 1 / 3;
     grid-row: 5; }
-  .proj-item-ml3 {
+  .proj-item-gd3 {
     grid-column: 1;
     grid-row: 6; }
-  .proj-item-ml8 {
+  .proj-item-gd8 {
     grid-column: 2;
     grid-row: 6; }
-  .proj-item-ml4 {
+  .proj-item-gd4 {
     grid-column: 1 / 3;
     grid-row: 7; } }
 
