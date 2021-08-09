@@ -329,7 +329,7 @@ section {
     grid-column: 6;
     grid-row: 3; }
   .proj-item-a {
-    background: url("/dist/img/tablets.jpg");
+    background: url("/dist/img/family-light.jpg");
     background-size: 100% 100%; }
   .proj-item-b {
     background: url("/dist/img/lights.jpg");
