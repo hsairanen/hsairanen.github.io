@@ -319,9 +319,9 @@ section {
   .proj-desc {
     background: rgba(247,246,246,0.8);
     color: $text-color-dark;
-    width: 105px;
-    margin-left: 10px;
-    grid-row: 1 / 4;
+    width: 120px;
+    margin-left: 2px;
+    grid-row: 1 / 5;
     grid-column: 1;
 
     .heading {
@@ -342,20 +342,34 @@ section {
     display: flex;
     color: $text-color-dark;
     font-size: 20px;
-    margin-left: 14px;
+    margin-left: 4px;
     margin-top: 42px;
     grid-row: 3;
     grid-column: 1;
+    font-weight: bold;
 
     div {
       font-size: 14px;
       margin-left: 4px;
       margin-top: 2px;
+    }
+  }
 
-      &:hover{
-        border-bottom: $line-size solid $text-color-dark;
-      }
+  .proj-icon2 {
+    display: flex;
+    color: $text-color-dark;
+    font-size: 20px;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    grid-row: 4;
+    grid-column: 1;
+    font-weight: bold;
 
+    div {
+      font-size: 14px;
+      margin-left: 4px;
+      margin-top: 2px;
     }
   }
 
