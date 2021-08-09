@@ -142,13 +142,6 @@ section {
 
   }
 
-  .proj-item{
-    &-a {
-      width: 90vw;
-      height: (2/3)*90vw;
-    }
-  }
-
   .project-container-gd {
     grid-template-columns: repeat(2,149px);
     grid-template-rows: 30px repeat(6,200px);
@@ -199,6 +192,13 @@ section {
 
 // Screen orientation
 @include mediaPortrait {
+
+  .proj-item{
+    &-a {
+      width: 90vw;
+      height: (2/3)*90vw;
+    }
+  }
 
   // About page styles
   .about-info {
