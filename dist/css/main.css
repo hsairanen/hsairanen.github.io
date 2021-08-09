@@ -491,6 +491,9 @@ sizes */
     font-size: 6vh; }
   section#machine-learning h1, section#web-programming h1 {
     margin-top: 3vh; }
+  .proj-item-a {
+    width: 90vw;
+    height: 60vw; }
   .project-container-gd {
     grid-template-columns: repeat(2, 149px);
     grid-template-rows: 30px repeat(6, 200px); }
