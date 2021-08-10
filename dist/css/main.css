@@ -540,17 +540,27 @@ sizes */
     grid-row: 7; } }
 
 @media screen and (orientation: portrait) {
-  .proj-item-a, .proj-item-b, .proj-item-c {
-    width: 70vw;
-    height: 46.66667vw; }
-    .proj-item-a .proj-desc, .proj-item-b .proj-desc, .proj-item-c .proj-desc {
-      width: 25vw;
-      margin-top: 0px;
+  .proj-item-a, .proj-item-b, .proj-item-c, .proj-item-wp1, .proj-item-wp2, .proj-item-wp3 {
+    width: 85vw;
+    min-height: 50vw; }
+    .proj-item-a .proj-desc, .proj-item-b .proj-desc, .proj-item-c .proj-desc, .proj-item-wp1 .proj-desc, .proj-item-wp2 .proj-desc, .proj-item-wp3 .proj-desc {
+      width: 35vw;
       margin-left: 1vw; }
-      .proj-item-a .proj-desc .heading, .proj-item-b .proj-desc .heading, .proj-item-c .proj-desc .heading {
-        font-size: 35px; }
-      .proj-item-a .proj-desc .paragraph, .proj-item-b .proj-desc .paragraph, .proj-item-c .proj-desc .paragraph {
-        font-size: 30px; }
+  .proj-heading {
+    width: 35vw;
+    margin-left: 2vw;
+    font-size: calc(max(3vh,20px)); }
+  .proj-paragraph {
+    width: 35vw;
+    margin-left: 2vw;
+    font-size: calc(max(2.5vh,10px)); }
+  .proj-icon {
+    font-size: calc(max(2.5vh,10px));
+    margin-left: 2vw; }
+  .proj-icon2 {
+    font-size: calc(max(2.5vh,10px));
+    margin-top: calc(max(3vh,10px));
+    margin-left: 2vw; }
   .about-info .about-container {
     grid-template-columns: 80vw;
     grid-row: 1fr 3fr 3fr;

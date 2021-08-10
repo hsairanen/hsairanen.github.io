@@ -194,24 +194,38 @@ section {
 @include mediaPortrait {
 
   .proj-item {
-    &-a, &-b, &-c {
-      width: 70vw;
-      height: (2/3)*70vw;
+    &-a, &-b, &-c, &-wp1, &-wp2, &-wp3, {
+      width: 85vw;
+      min-height: 50vw;
 
       .proj-desc {
-        width: 25vw;
-        margin-top: 0px;
+        width: 35vw;
         margin-left: 1vw;
-
-        .heading {
-          font-size: 35px;
-        }
-
-        .paragraph {
-          font-size: 30px;
-        }
       }
     }
+  }
+
+  .proj-heading {
+    width: 35vw;
+    margin-left: 2vw;
+    font-size: calc(max(3vh,20px));
+  }
+
+  .proj-paragraph {
+    width: 35vw;
+    margin-left: 2vw;
+    font-size: calc(max(2.5vh,10px));
+  }
+
+  .proj-icon {
+    font-size: calc(max(2.5vh,10px));
+    margin-left: 2vw;
+  }
+
+  .proj-icon2 {
+    font-size: calc(max(2.5vh,10px));
+    margin-top: calc(max(3vh,10px));
+    margin-left: 2vw;
   }
 
 
