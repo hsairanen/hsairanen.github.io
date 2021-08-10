@@ -279,13 +279,15 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  grid-gap: 2vh;
   margin-bottom: 1rem; }
 
 .proj-item, .proj-item-gd1, .proj-item-gd2, .proj-item-gd3, .proj-item-gd4, .proj-item-gd5, .proj-item-gd6, .proj-item-gd7, .proj-item-gd8, .proj-item-a, .proj-item-b, .proj-item-c, .proj-item-wp1, .proj-item-wp2, .proj-item-wp3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  padding: 0.5rem; }
+  grid-template-rows: repeat(4, 1fr);
+  overflow-x: hidden;
+  min-height: 260px; }
   .proj-item:hover, .proj-item-gd1:hover, .proj-item-gd2:hover, .proj-item-gd3:hover, .proj-item-gd4:hover, .proj-item-gd5:hover, .proj-item-gd6:hover, .proj-item-gd7:hover, .proj-item-gd8:hover, .proj-item-a:hover, .proj-item-b:hover, .proj-item-c:hover, .proj-item-wp1:hover, .proj-item-wp2:hover, .proj-item-wp3:hover {
     border: 0.5vh solid #F7F6F6; }
   .proj-item-gd1 {
@@ -351,8 +353,8 @@ section {
   background: rgba(247, 246, 246, 0.8);
   color: #21252B;
   width: 120px;
-  margin-left: 2px;
-  grid-row: 1 / 5;
+  margin-left: 7px;
+  grid-row: 1 / 6;
   grid-column: 1; }
   .proj-desc .heading {
     font-weight: 700;
@@ -363,34 +365,41 @@ section {
     margin-left: 4px;
     margin-top: 14px; }
 
+.proj-heading {
+  color: #21252B;
+  font-weight: 700;
+  margin-left: 11px;
+  grid-row: 1;
+  grid-column: 1;
+  width: 120px;
+  font-size: 120%; }
+
+.proj-paragraph {
+  color: #21252B;
+  margin-left: 11px;
+  grid-row: 2 / 4;
+  grid-column: 1;
+  width: 120px;
+  font-size: 110%; }
+
 .proj-icon {
   display: flex;
   color: #21252B;
-  font-size: 20px;
-  margin-left: 4px;
-  margin-top: 42px;
-  grid-row: 3;
+  font-size: 110%;
+  margin-left: 11px;
+  grid-row: 4;
   grid-column: 1;
   font-weight: bold; }
-  .proj-icon div {
-    font-size: 14px;
-    margin-left: 4px;
-    margin-top: 2px; }
 
 .proj-icon2 {
   display: flex;
   color: #21252B;
-  font-size: 20px;
-  margin-left: 4px;
-  margin-top: 2px;
-  margin-bottom: 4px;
+  font-size: 110%;
+  margin-left: 11px;
+  margin-top: 30px;
   grid-row: 4;
   grid-column: 1;
   font-weight: bold; }
-  .proj-icon2 div {
-    font-size: 14px;
-    margin-left: 4px;
-    margin-top: 2px; }
 
 .about-info {
   margin-top: 1rem; }
